@@ -129,7 +129,7 @@ nav ul li:hover{
 #platforms{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
     flex-wrap: wrap;
 }
 #platforms a{
@@ -139,4 +139,13 @@ nav ul li:hover{
 }
 #platforms a:hover{
     transform: translateY(8px);
+}
+
+@media (max-width: 480px){
+    html{
+        font-size: 12px;
+    }
+    nav{
+        justify-content: center;
+    }
 }
